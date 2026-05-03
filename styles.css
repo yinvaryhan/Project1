@@ -1,0 +1,61 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px auto;
+    text-align: justify;
+    color: rgb(48, 48, 48);
+    background-color: rgb(221, 221, 221);
+}
+.head {
+    margin: 30px auto;
+    padding: 20px;
+    text-align: justify;
+    padding-top: 10px;
+}
+h1 {
+    font-size: 40px;
+    margin: 20px;
+}
+h2 {
+    font-size: 28px;
+    margin: 15px;
+}
+h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin: 2px;
+    letter-spacing: 1.3px;
+}
+ol {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    letter-spacing: 1.2px;
+    word-spacing: 1.1;
+
+}
+.normal {
+     font-size: 15px;
+    margin: 2px;
+
+}
+.accordion-container {
+    margin: 30px auto;
+    width: 90%;
+    padding: 20px;
+    background-color: rgb(219, 219, 219);
+    text-align: justify;
+    border-radius: 30px;
+}
+.bg {
+    font-size: 25px;
+}
+.normal-p {
+    font-size: 15px;
+}
+.footer-content p {
+    font-size: small;
+}
