@@ -59,3 +59,39 @@ ol {
 .footer-content p {
     font-size: small;
 }
+summary::-webkit-details-marker { display: none; }
+summary { list-style: none; }
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.arrow {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #333;
+  border-bottom: 2px solid #333;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+details[open] .arrow {
+  transform: rotate(-135deg); 
+}
+
+.content {
+  padding: 15px 20px;
+  background: white;
+  border: 1px solid #e9ecef;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+}
